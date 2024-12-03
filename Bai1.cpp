@@ -121,7 +121,7 @@ int main()
 		}
 		else if(chon==5)
 		{
-			cout<<"Luong sau khi duoc sap xep giam dan neu giam dan thi tang theo ten : \n";
+			cout<<"Luong sau khi duoc sap xep giam dan neu cung luong thi tang theo ten : \n";
 			SapxepNV_GiamTheoLuong_TangTheoTen(a,n);
 			XuatMang(a,n);
 		}
