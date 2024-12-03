@@ -76,7 +76,7 @@ void TimKiem(NV a[], int n)
 			}
 	}if(TimNV==0)
 		{
-			cout<<"Khong co sinh vien nao co ma sinh vien nay. ";
+			cout<<"Khong co nhan vien nao co ma nhan vien nay!!! ";
 		}
 }
 void SapxepNV_TangTheoLuong(NV a[],int n)
@@ -90,10 +90,10 @@ void SapxepNV_GiamTheoLuong_TangTheoTen(NV a[],int n)
 {
 	for(int i=0;i<n-1;i++)
 	for(int j=i+1;j<n;j++)
-	if(a[i].Luong<a[j].Luong)
-	swap(a[i],a[j]);
+		if(a[i].Luong<a[j].Luong)
+		swap(a[i],a[j]);
 			else if(a[i].Luong<a[j].Luong && a[i].HoTen>a[j].HoTen)
-	swap(a[i],a[j]);
+			swap(a[i],a[j]);
 }
 int main()
 {
